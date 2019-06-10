@@ -1,0 +1,81 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+nav.header {
+    width:100%;
+    padding: 0.4em;
+} nav.header ul {
+    display: flex;
+    justify-content: flex-end;
+    margin:0;
+    padding:0;
+} nav.header ul li {
+    list-style: none;
+    margin-right:1em;
+} nav.header ul li a {
+    color: red;
+    text-decoration:none;
+}
+
+
+
+
+html,body{
+    height: 97%;
+    background-image: url("../img/bg.png");
+}
+#lisere{
+    float:left;
+    width: 10%;
+    height:100%;
+    background-image: url("../img/liseret.png");
+    border-radius: 10px;
+}
+#cv{
+    margin-left: 11%;
+    height:100%;
+}
+#debut{
+    text-align: center;
+}
+#image{
+    float:right;
+    margin-right:30px;
+}
+.texte{
+    margin-top: 60px;
+    margin-left: 132px;
+    padding:5px;
+    width: 17%;
+    min-height:250px;
+    float:left;
+}
+.solo{
+    margin-left: 250px;
+    padding:5px;
+    width: 17%;
+    min-height:350px;
+    float:left;
+}
+
+.container-form{
+    margin-top:15%;
+    margin-left:43%;
+    display:inline-block;
+    text-align:center;
+}
+
+.form-element{
+    margin-left:36%;
+    display:inline-block;
+    text-align:center;
+}
+
+.submit{
+    margin-top: 1%;
+    display:inline-block;
+    text-align:center;
+}
